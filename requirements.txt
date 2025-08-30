@@ -5,6 +5,7 @@
 #cd "/Users/nomanmacbook/Desktop/lang-Chain projects/semmirize_text"
 # streamlit run practice.py
 #pip3 install -r requirements.txt
+python==3.10
 langchain-openai
 langchain
 openai
