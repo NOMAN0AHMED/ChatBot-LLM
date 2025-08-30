@@ -1,6 +1,6 @@
 #DuckDuckGo Search se aapko latest live data mil jata hai.
 import streamlit as st
-from langchain_community.tools import DuckDuckGoSearchRun
+from langchain_community.utilities.duckduckgo_search import DuckDuckGoSearchRun
 from langchain_community.tools import WikipediaQueryRun,ArxivQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper,ArxivAPIWrapper
 from langchain.agents import initialize_agent,AgentType
